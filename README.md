@@ -2,8 +2,7 @@
 ## 3_1
 ### model_py_file
 contains all models trained on SNLI, model name follows '{vocab size}_{embed dimension}_{interaction}_{model type}.py'
-### results_pickle_file
-contains validation loss and accuracy computed by all models in model_py_file
+
 ## 3_2
 contains jupyter notebooks that use the best logistic and nn models tuned in 3_1 to evaluate on MNLI
 contains validation loss and accuracy computed by the best two models on MNLI
